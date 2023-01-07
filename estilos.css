@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
 
-:root{
-    --cor1:#0C2B30;
-    --cor2:#AEAC9D;
-    --cor3:#698F92;
-    --cor4:#939185;
-    --cor5:#4596A9;
+:root {
+    --cor1: #0C2B30;
+    --cor2: #AEAC9D;
+    --cor3: #698F92;
+    --cor4: #939185;
+    --cor5: #4596A9;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
@@ -16,62 +16,64 @@
     background-color: var(--cor1);
 }
 
-html{
+html {
     padding: 15px;
     margin: 0 auto;
     max-width: 1220px;
 }
 
 /* HEADER */
-.header-container{
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     border-bottom: 1px solid #4596A9;
-    
+
 }
 
-.menu-items{
+
+.menu-items {
     font-size: 24px;
 }
 
-.menu-items ul{
+.menu-items ul {
     display: flex;
     list-style: none;
 }
 
-.menu-items li{
+.menu-items li {
     padding: 15px;
 }
 
-.menu-items a{
+.menu-items a {
     text-decoration: none;
     font-weight: 700;
 }
 
-.menu-items a:hover{
+.menu-items a:hover {
     color: var(--cor5);
     text-decoration: overline;
     transition: 0.3s;
 }
 
 /* MAIN */
-main{
+main {
     height: 70vh;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.esquerda{
+.esquerda {
     width: 50%;
 }
 
-.esquerda p{
+.esquerda p {
     font-size: 2em;
 }
 
@@ -80,27 +82,27 @@ main{
     color: var(--cor5);
 }
 
-.esquerda h2{
+.esquerda h2 {
     font-weight: 400;
 }
 
-.direita{
+.direita {
     width: 50%;
 }
 
-.direita img{
+.direita img {
     width: 100%;
     max-width: 900px;
 }
 
 /* BOTOES */
-.rede-social{
+.rede-social {
     display: flex;
     gap: 15px;
     margin-top: 35px;
 }
 
-.rede-social button{
+.rede-social button {
     display: flex;
     justify-content: center;
     height: 45px;
@@ -108,6 +110,7 @@ main{
     border: 2px solid var(--cor5);
     color: #fefefe;
     padding: 8px 40px;
+    margin-top: 50px;
     font-size: 24px;
     font-weight: 400;
     cursor: pointer;
@@ -115,12 +118,12 @@ main{
     transform: skew(-24deg);
 }
 
-.rede-social button:hover{
+.rede-social button:hover {
     background-color: var(--cor5);
 }
 
 .rede-social button>a {
-    
+
     background: transparent;
     /*responsável por desinclinar o texto*/
     transform: skew(24deg);
@@ -128,4 +131,19 @@ main{
     font-size: 16px;
     line-height: 180%;
     text-decoration: none;
+}
+
+@media (max-width:942px) {
+    .direita {
+        display: none;
+    }
+
+    .esquerda {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rede-social {
+        justify-content: center;
+    }
 }
