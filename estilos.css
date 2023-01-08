@@ -27,7 +27,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     border-bottom: 1px solid #4596A9;
 
 }
@@ -62,7 +62,7 @@ main {
     height: 70vh;
 }
 
-.container {
+.container-main {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -99,7 +99,7 @@ main {
 .rede-social {
     display: flex;
     gap: 15px;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .rede-social button {
@@ -145,5 +145,33 @@ main {
 
     .rede-social {
         justify-content: center;
+        margin-bottom: 30px;
     }
 }
+
+/* SOBRE */
+.container-sobre{
+    margin-top: 70px;
+    border-top: 1px solid var(--cor5);
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto h2{
+    margin: 50px 0px 10px 0px;
+    color: var(--cor3);
+    text-transform: uppercase;
+}
+
+.texto p{
+    max-width: 700px;
+    color: #e2e1d7;
+    text-align: justify;
+}
+
