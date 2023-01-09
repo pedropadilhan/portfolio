@@ -13,13 +13,14 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     color: white;
-    background-color: var(--cor1);
+    
 }
 
 html {
     padding: 15px;
     margin: 0 auto;
     max-width: 1220px;
+    background-color: var(--cor1);
 }
 
 /* HEADER */
@@ -108,7 +109,6 @@ main {
     height: 45px;
     width: 225px;
     border: 2px solid var(--cor5);
-    color: #fefefe;
     padding: 8px 40px;
     margin-top: 50px;
     font-size: 24px;
@@ -131,29 +131,17 @@ main {
     font-size: 16px;
     line-height: 180%;
     text-decoration: none;
+    color: black;
 }
 
-@media (max-width:942px) {
-    .direita {
-        display: none;
-    }
 
-    .esquerda {
-        width: 100%;
-        text-align: center;
-    }
-
-    .rede-social {
-        justify-content: center;
-        margin-bottom: 30px;
-    }
-}
 
 /* SOBRE */
 .container-sobre{
     margin-top: 70px;
     border-top: 1px solid var(--cor5);
-    
+    border-bottom: 1px solid var(--cor5);
+    margin-bottom: 50px;
 }
 
 .texto{
@@ -173,5 +161,78 @@ main {
     max-width: 700px;
     color: #e2e1d7;
     text-align: justify;
+    margin-bottom: 50px;
 }
 
+/* PROJETOS */
+
+.projetos h2{
+text-align: center;
+color: var(--cor3);
+}
+
+.container-projeto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: #202020;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.titulo-card{
+    text-align: center;
+    color: var(--cor4);
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.desc{
+    color: var(--cor2);
+    font-size: 15px;
+}
+
+.btn{
+    padding: 10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--cor2);
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition: 0.3s;
+    background-color: var(--cor3);
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

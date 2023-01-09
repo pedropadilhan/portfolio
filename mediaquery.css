@@ -1,0 +1,19 @@
+@media (max-width:942px) {
+    .menu-items a {
+        font-size: 20px;
+    }
+
+    .direita {
+        display: none;
+    }
+
+    .esquerda {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rede-social {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
