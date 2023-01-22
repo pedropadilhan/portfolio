@@ -31,6 +31,8 @@ html {
     width: 100%;
     height: 50px;
     background-color: var(--cor3);
+    z-index: 1;
+    border-bottom: 1px solid var(--cor1);
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -106,37 +108,37 @@ main {
     margin-top: 25px;
 }
 
-.rede-social button {
+.rede-social a {
     display: flex;
     justify-content: center;
-    height: 45px;
-    width: 225px;
+    height: 35px;
+    width: 150px;
     border: 2px solid var(--cor5);
     box-shadow: 1px 1px 10px black;
     background-color: var(--cor3);
     padding: 8px 40px;
     margin-top: 50px;
-    font-size: 24px;
     font-weight: 400;
+    text-decoration: none;
     cursor: pointer;
     /*responsável por inclinar o botão*/
     transform: skew(-24deg);
 }
 
-.rede-social button:hover {
+.rede-social a:hover {
     background-color: var(--cor5);
 }
 
-.rede-social button>a {
+.rede-social a>button {
 
     background: transparent;
     /*responsável por desinclinar o texto*/
     transform: skew(24deg);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 180%;
-    text-decoration: none;
-    color: black;
+    font-size: 21px;
+    border: none;
+    cursor: pointer;
+    color: var(--cor1);
 }
 
 
@@ -240,4 +242,8 @@ color: var(--cor3);
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+.ancora-botao{
+    text-align: center;
 }
