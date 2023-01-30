@@ -17,3 +17,13 @@
         margin-bottom: 30px;
     }
 }
+
+@media (max-width:542px) {
+    .rede-social a{
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 50px;
+
+    }
+}
