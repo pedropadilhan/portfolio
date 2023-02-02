@@ -16,14 +16,28 @@
         justify-content: center;
         margin-bottom: 30px;
     }
+
+    .container-sobre{
+        flex-direction: column;
+        padding: 0 0 55px 0;
+        
+    }
+    .texto{
+        max-width: 80%;
+    }
 }
 
-@media (max-width:542px) {
+@media (max-width:619px) {
     .rede-social a{
         width: 100px;
         margin: 0 auto;
         margin-top: 30px;
         margin-bottom: 50px;
+    }
 
+    .container-conhecimentos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
