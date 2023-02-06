@@ -19,6 +19,8 @@
 
     .container-sobre{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding: 0 0 55px 0;
         
     }
@@ -35,6 +37,7 @@
         margin-bottom: 50px;
     }
 
+    
     .container-conhecimentos{
         display: flex;
         flex-direction: column;
