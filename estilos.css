@@ -233,10 +233,20 @@ main {
     justify-content: center;
 }
 
-.imagem1 {
+.foto-card {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+#foto-carro{
+    width: 200px;
+}
+
+#foto-cev{
+    height: 90px;
+    width: 250px;
+    margin: 25px 0;
 }
 
 .titulo-card {
@@ -276,4 +286,9 @@ main {
 
 .ancora-botao {
     text-align: center;
+}
+
+.ancora-prof{
+    text-decoration: none;
+    color: var(--cor5);
 }
