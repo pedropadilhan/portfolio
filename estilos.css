@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
 
 :root {
-    --cor1: #0C2B30;
+    --cor1: #05080D;
+    --cor2: #144659;
+    --cor3: #248EA6;
+    --cor4: #C4EAF2;
+    --cor5: #32C8D9;
+
+    /* --cor1: #0C2B30;
     --cor2: #AEAC9D;
     --cor3: #698F92;
     --cor4: #939185;
-    --cor5: #4596A9;
+    --cor5: #4596A9; */
+    
 }
 
 * {
@@ -30,9 +37,9 @@ html {
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
     z-index: 1;
-    border-bottom: 1px solid var(--cor1);
+    border-bottom: 1px solid var(--cor2);
     /* display: flex;
     justify-content: center;
     align-items: center;
@@ -58,8 +65,8 @@ html {
 }
 
 .menu-items a:hover {
-    color: var(--cor1);
-    text-decoration: overline;
+    color: var(--cor3);
+    text-decoration: underline;
     transition: 0.3s;
 }
 
@@ -87,7 +94,7 @@ main {
 
 .esquerda h1 {
     font-size: 4em;
-    color: var(--cor5);
+    color: var(--cor3);
 }
 
 .esquerda h2 {
@@ -115,9 +122,9 @@ main {
     justify-content: center;
     height: 35px;
     width: 150px;
-    border: 2px solid var(--cor5);
-    box-shadow: 1px 1px 10px black;
-    background-color: var(--cor3);
+    border: 2px solid var(--cor3);
+    box-shadow: 1px 1px 10px var(--cor2);
+    background-color: var(--cor2);
     padding: 8px 40px;
     margin-top: 50px;
     font-weight: 400;
@@ -128,7 +135,8 @@ main {
 }
 
 .rede-social a:hover {
-    background-color: var(--cor5);
+    background-color: var(--cor3);
+    transition: 0.3s;
 }
 
 .rede-social a>button {
@@ -149,6 +157,7 @@ main {
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 15px;
+    padding-bottom: 25px;
     border-top: 1px solid var(--cor5);
     border-bottom: 1px solid var(--cor5);
     display: flex;
@@ -170,9 +179,22 @@ main {
     max-width: 700px;
     color: #e2e1d7;
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
+.curriculo{
+    border: 2px solid var(--cor3);
+    box-shadow: 1px 1px 10px var(--cor2);
+    background-color: var(--cor2);
+    padding: 8px 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.curriculo:hover {
+    background-color: var(--cor3);
+    transition: 0.3s;
+}
 
 .img-pedro {
     width: 250px;
@@ -201,6 +223,11 @@ main {
     max-width: 150px;
 }
 
+.container-conhecimentos img:hover{
+    scale: 1.2;
+    transition: 0.3s;
+}
+
 /* PROJETOS */
 
 .projetos h2 {
@@ -226,6 +253,11 @@ main {
     border-radius: 15px;
     margin-top: 50px;
     background-color: #202020;
+    box-shadow: 1px 1px 10px var(--cor2);
+}
+.card:hover{
+    scale: 1.1;
+    transition: 0.2s;
 }
 
 .card-image {
@@ -237,6 +269,7 @@ main {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    
 }
 
 #foto-carro{
@@ -258,7 +291,7 @@ main {
 }
 
 .desc {
-    color: var(--cor2);
+    color: #fff;
     font-size: 15px;
 }
 
@@ -266,7 +299,6 @@ main {
     padding: 10px 30px;
     font-size: 15px;
     font-weight: 600;
-    color: black;
     border-radius: 10px;
     border: none;
     background-color: var(--cor2);
@@ -292,3 +324,16 @@ main {
     text-decoration: none;
     color: var(--cor5);
 }
+
+/* FOOTER */
+.rodape{
+    background-color: var(--cor2);
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    
+}
+ .rodape strong{
+    color: var(--cor5);
+ }
