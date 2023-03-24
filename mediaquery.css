@@ -33,6 +33,10 @@
        display: flex;
        justify-content: center;
     }
+    .container-conhecimentos img{
+        width: 100%;
+    }
+
 }
 
 @media (max-width:619px) {
