@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio do Pedro</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="mediaquery.css">
 </head>
@@ -54,7 +55,6 @@
 
 <!-- SOBRE -->
         <section class="container-sobre">
-            
             <div class="texto" id="texto">
                 <h2>Sobre mim</h2>
                 <p>Estudante de Análise e Desenvolvimento de Sistemas no SENAC.
@@ -73,7 +73,6 @@
         </section>
 
 <!-- CONHECIMENTOS --> 
-
         <section class="conhecimentos">
             <h2>CONHECIMENTOS</h2>
             <div class="container-conhecimentos">
@@ -99,13 +98,20 @@
             </div>
         </section>
 
-
 <!-- PROJETOS -->
         <section class="projetos">
             <h2 id="projetos">PROJETOS</h2>
-            <div class="container-projeto">
-
-                
+            <div class="container-projeto">               
+                <div class="card">
+                    <div class="card-image">
+                        <img class="foto-card" src="img/axel.png" alt="">
+                    </div>
+                    <div class="card-texto">
+                        <h2 class="titulo-card">Projeto Ragnarok</h2>
+                        <p class="desc">Projeto incrivel onde utilizei SASS e as bibliotecas <strong>SwipeJS</strong> e <strong>AOS</strong></p>
+                    </div>
+                    <a class="ancora-botao" href="https://github.com/pedropadilhan/projeto-gow-ragnarok" target="_blank"><button type="button" class="btn">VER REPOSITÓRIO</button></a>
+                </div>
 
                 <div class="card">
                     <div class="card-image">
@@ -129,7 +135,6 @@
                     <a class="ancora-botao" href="https://github.com/pedropadilhan/desafio-codelandia" target="_blank"><button type="button" class="btn">VER REPOSITÓRIO</button></a>
                 </div>
 
-                
                 <div class="card">
                     <div class="card-image">
                         <img class="foto-card" id="foto-carro" src="img/car-card.png" alt="">
@@ -173,6 +178,8 @@
         </div>
     </main>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
