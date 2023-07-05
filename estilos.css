@@ -341,3 +341,17 @@ main {
  .rodape strong{
     color: var(--cor5);
  }
+
+ /* SCROLL BAR */
+
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #248EA6;
+    border-radius: 15px;
+  }
