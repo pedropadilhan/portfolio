@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio do Pedro</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container"data-aos="flip-up">
+            <nav class="menu-items">
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    
+                    <li>
+                        <a href="certificados.html">CERTIFICADOS</a>
+                    </li>
+                </ul>
+        </div>
+        </nav>
+    </header>
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-algoritmo-cev.jpg" alt="Ceritificado Curso em Video - Algoritmos">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-github-cev.jpg" alt="Certificado curso GitHub">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-html-cev.jpg" alt="Certificado Curso em Video - HTML">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-htmlecss-cev1-5.jpg" alt="Certificado Curso em Video - HTML e CSS">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-htmlecss-cev2-5.jpg" alt="Certificado Curso em Video - HTML e CSS">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-htmlecss-cev3-5.jpg" alt="Certificado Curso em Video - HTML e CSS">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-javascript-cev.jpg" alt="Certificado Curso em Video - Javascript">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/certificados/certificado-javascript-trybe.jpg" alt="Certificado Trybe - Javascript">
+              </div>
+              
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+    </main>
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
