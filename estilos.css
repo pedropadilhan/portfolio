@@ -387,3 +387,11 @@ main {
   #titulo-certificado{
     text-align: center;
   }
+
+  /* WhatsApp */
+  .whats{
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    z-index: 9999;
+  }
