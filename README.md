@@ -1,5 +1,5 @@
 # Portfólio
- Estou trabalhando neste projeto de portfólio usando apenas HTML e CSS.
+ Estou trabalhando neste projeto de portfólio usando apenas HTML, CSS e Javascript.
  
  [Versão mais recente](https://pedropadilhan.github.io/portfolio/)
  
