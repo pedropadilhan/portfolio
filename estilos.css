@@ -393,5 +393,10 @@ main {
     position: fixed;
     bottom: 10px;
     right: 0px;
-    z-index: 9999;
+    animation: tremer 1s infinite;
   }
+
+  @keyframes tremer{
+    to{transform: translateY(5px);
+    }
+    }
