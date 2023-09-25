@@ -47,6 +47,11 @@
 }
 
 @media (max-width:619px) {
+    .esquerda {
+        width: 150%;
+        text-align: center;
+    }
+
     .rede-social a{
         width: 100px;
         margin: 0 auto;
@@ -54,7 +59,6 @@
         margin-bottom: 50px;
     }
 
-    
     .container-conhecimentos{
         display: flex;
         flex-direction: column;

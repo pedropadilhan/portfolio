@@ -26,6 +26,7 @@ html {
   margin: 0 auto;
   max-width: 1220px;
   background-color: var(--cor1);
+  overflow-x: hidden;
 }
 
 /* HEADER */
